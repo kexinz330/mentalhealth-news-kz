@@ -8,7 +8,7 @@ depression_df = pd.read_csv('depression_articles.csv', low_memory=False)
 anxiety_df['Anxiety or Depression'] = 0  # 0 for anxiety articles
 depression_df['Anxiety or Depression'] = 1  # 1 for depression articles
 
-combined_df = pd.concat([anxiety_df, depression_df], ignore_index=True)
+combined_df = pd.concat([anxiety_df, depression_df], axis = 0, ignore_index=True)
 
 combined_df.rename(columns={'Headline': 'Title'}, inplace=True)
 
@@ -47,9 +47,9 @@ combined_df.drop(columns=['Publication Date'], inplace=True)
 
 def clean_text(text):
     if isinstance(text, str):
-        text = text.lower()  # 转换为小写
-        text = re.sub(r'[^\w\s]', '', text)  # 移除非字母数字字符
-        text = re.sub(r'\s+', ' ', text).strip()  # 将多个空格替换为单个空格，去除首尾空格
+        text = text.lower()
+        text = re.sub(r'[^\w\s]', '', text)
+        text = re.sub(r'\s+', ' ', text).strip()
     else:
         text = ""
     return text
