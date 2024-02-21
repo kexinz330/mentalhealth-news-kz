@@ -2,8 +2,8 @@ import pandas as pd
 from datetime import datetime
 import re
 
-anxiety_df = pd.read_csv('anxiety_articles.csv', low_memory=False)
-depression_df = pd.read_csv('depression_articles.csv', low_memory=False)
+anxiety_df = pd.read_csv('anxiety_articles_guardian.csv', low_memory=False)
+depression_df = pd.read_csv('depression_articles_guardian.csv', low_memory=False)
 
 anxiety_df['Anxiety or Depression'] = 0  # 0 for anxiety articles
 depression_df['Anxiety or Depression'] = 1  # 1 for depression articles
@@ -47,11 +47,11 @@ combined_df.drop(columns=['Publication Date'], inplace=True)
 
 def clean_text(text):
     if isinstance(text, str):
-        text = text.lower()
-        text = re.sub(r'[^\w\s]', '', text)
-        text = re.sub(r'\s+', ' ', text).strip()
+        text = text.lower() # Convert to lowercase
+        text = re.sub(r'[^\w\s]', '', text) # Remove punctuation
+        text = re.sub(r'\s+', ' ', text).strip() # Remove extra spaces
     else:
-        text = ""
+        text = "" # Replace missing values with empty strings
     return text
 
 combined_df['Title'] = combined_df['Title'].apply(clean_text)
@@ -63,6 +63,4 @@ combined_df = combined_df[['Sources', 'Month', 'Date', 'Year',
                            'Anxiety or Depression', 'Title',
                            'Body Text', 'Time frame']]
 
-combined_df.to_csv('combined_articles.csv', index=False)
-
-
+combined_df.to_csv('combined_articles_guardian.csv', index=False)
