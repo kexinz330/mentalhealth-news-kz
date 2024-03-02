@@ -2,7 +2,7 @@
 
 ### <ins>Responsibilities<ins>
 
-*Overall project management (correct merge of data, files organization, upload of material)* : Natasha
+*Overall project management (correct merge of data, files organization, upload of material, overlook of tasks, etc.)* : Natasha
 
 *Data Collection*
 - The New York Times articles: Natasha
