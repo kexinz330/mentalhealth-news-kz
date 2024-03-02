@@ -21,7 +21,8 @@
 
 *Presentation*: All members
 
-*Video*: All members
+*Video Recording*: All members
+*Video Editing*: Yue
 
 *This README file*: Natasha
 
