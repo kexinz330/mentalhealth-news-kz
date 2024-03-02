@@ -18,7 +18,26 @@ Overall, after analyzing both newspapers, we concluded that discussions surround
 For future directions, we suggest this study could be replicated in other platforms (such as social media), including other mental health conditions (beyond anxiety and depression) and it could also be enhanced through the exploration of other sentiment analysis techniques and dictionaries. 
 
 
-### <ins>Responsibilities<ins>
+### <ins>Navigation of GitHub repository<ins>
+Along with this README file, you can find the following folders and documents:
+
+- all_articles_counts: in this directory you'll be able to find two files: "total_articles_by_year_guardian.csv" and "yearly_n_all_nyt". These contain yearly counts for ALL published articles (regardless of topic) on each newspaper from 2004 to 2024 (up until mid-February)
+- guardian_articles_raw: this directory contains two csv files ("anxiety_articles_guardian.csv" and "depression_articles_guardian.csv"). These contain The Guardian's articles' raw data
+- nyt_articles_raw: this directory contains two json files ("anxiety_articles_NYT.json" and "depression_articles_NYT.json"). These contain The New York Times' articles' raw data
+- presentation materials: in this folder you can find two PDF files. One is "psychkids original presentation.pdf", which have the original slides from an in-class presentation of the project. The other one is "psychkids revised presentation.pdf" which are the revised slides after getting feedback.
+- READme.md: this file
+- psychkids.ipynb: Jupyter notebook containing code used for data collection, data cleaning and data analysis/visualization
+- requirements.txt: file listing the required libraries/version numbers needed to reproduce the project
+
+### <ins>Instructions to run the code<ins>
+
+1. Users should clone the whole repository in their local machine.
+2. Download two additional folders and one file that are publicly available on Google Drive. The link to access them is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
+4. Make sure to put the two folders ("cleaned_articles" and "NRC-Emotion-Lexicon") and the file "sentiment_data" at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts) (Sometimes local computers will download a zip containing the folder. Be sure to unzip it.)
+5. Install all needed packages if they are not already installed (specified in requirements.txt)
+6. Open psychkids.ipynb in an integrated development environment (IDE) of choice and run. 
+
+### <ins>Responsibilities of team members<ins>
 
 *Overall project management (correct merge of data, files organization, upload of material, overlook of tasks, etc.)* : Natasha
 
@@ -43,10 +62,4 @@ For future directions, we suggest this study could be replicated in other platfo
 *Video Editing*: Yue
 
 *This README file*: Natasha
-
-### <ins>Instructions to run the code<ins>
-
-1. Users should clone the whole repository in their local machine.
-2. Download two additional folders and one file that are publicly available on Google Drive. The link to access them is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
-4. Make sure to put the two folders ("cleaned_articles" and "NRC-Emotion-Lexicon") and the file "sentiment_data" at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts) (Sometimes local computers will download a zip containing the folder. Be sure to unzip it.)
 
