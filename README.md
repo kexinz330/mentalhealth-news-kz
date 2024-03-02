@@ -34,7 +34,7 @@ Along with this README file, you can find the following folders and documents:
 1. Users should clone the whole repository in their local machine.
 2. Download two additional folders and one file that are publicly available on Google Drive. The link to access them is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
 4. Make sure to put the two folders ("cleaned_articles" and "NRC-Emotion-Lexicon") and the file "sentiment_data" at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts) (Sometimes local computers will download a zip containing the folder. Be sure to unzip it.)
-5. Install all needed packages if they are not already installed (specified in requirements.txt)
+5. Install all needed libraries if they are not already installed (specified in requirements.txt)
 6. Open psychkids.ipynb in an integrated development environment (IDE) of choice and run. 
 
 
