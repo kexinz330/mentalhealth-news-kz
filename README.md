@@ -23,6 +23,8 @@
 
 *Video*: All members
 
+*This README file*: Natasha
+
 ### <ins>Instructions to run code<ins>
 
 1. Users should clone the whole repository in their local machine.
