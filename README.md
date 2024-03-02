@@ -27,7 +27,7 @@ Along with this README file, you can find the following folders and documents:
 - presentation materials: in this folder you can find two PDF files. One is "psychkids original presentation.pdf", which have the original slides from an in-class presentation of the project. The other one is "psychkids revised presentation.pdf" which are the revised slides after getting feedback.
 - READme.md: this file
 - psychkids.ipynb: Jupyter notebook containing code used for data collection, data cleaning and data analysis/visualization
-- requirements.txt: file listing the required libraries/version numbers needed to reproduce the project
+- requirements.txt: file listing the dependencies needed to reproduce the project
 
 ### <ins>Instructions to run the code<ins>
 
