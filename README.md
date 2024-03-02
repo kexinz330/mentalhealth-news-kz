@@ -25,7 +25,7 @@ Along with this README file, you can find the following folders and documents:
 - guardian_articles_raw: this directory contains two csv files ("anxiety_articles_guardian.csv" and "depression_articles_guardian.csv"). These contain The Guardian's articles' raw data
 - nyt_articles_raw: this directory contains two json files ("anxiety_articles_NYT.json" and "depression_articles_NYT.json"). These contain The New York Times' articles' raw data
 - presentation materials: in this folder you can find two PDF files. One is "psychkids original presentation.pdf", which have the original slides from an in-class presentation of the project. The other one is "psychkids revised presentation.pdf" which are the revised slides after getting feedback.
-- READme.md: this file
+- README.md: this file
 - psychkids.ipynb: Jupyter notebook containing code used for data collection, data cleaning and data analysis/visualization
 - requirements.txt: file listing the dependencies needed to reproduce the project
 
