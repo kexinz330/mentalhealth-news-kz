@@ -25,7 +25,7 @@
 
 *This README file*: Natasha
 
-### <ins>Instructions to run code<ins>
+### <ins>Instructions to run the code<ins>
 
 1. Users should clone the whole repository in their local machine.
 2. Download two additional folders and one file that are publicly available on Google Drive. The link to access them is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
