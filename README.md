@@ -26,5 +26,5 @@
 ### <ins>Instructions to run code<ins>
 
 1. Users should clone the whole repository in their local machine.
-2. Download an additional folder that's publicly available on Google Drive with large data that couldn't be uploaded here. The link to that folder is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
-3. Make sure to put the folder "cleaned_articles" at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts)
+2. Download two additional folders that are publicly available on Google Drive. The link to both folders is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
+3. Make sure to put the two folders ("cleaned_articles" and "NRC-Emotion-Lexicon") at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts)
