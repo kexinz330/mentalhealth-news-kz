@@ -37,6 +37,12 @@ Along with this README file, you can find the following folders and documents:
 5. Install all needed packages if they are not already installed (specified in requirements.txt)
 6. Open psychkids.ipynb in an integrated development environment (IDE) of choice and run. 
 
+
+### <ins>Data sources<ins>
+- The Guardian Open Platform API (https://open-platform.theguardian.com/)
+- The New York Times Developers Article Search API (https://developer.nytimes.com/docs/articlesearch-product/1/overview)
+
+
 ### <ins>Team members responsibilities<ins>
 
 *Overall project management (correct merge of data, files organization, upload of material, overlook of tasks, etc.)* : Natasha
@@ -63,9 +69,9 @@ Along with this README file, you can find the following folders and documents:
 
 *This README file*: Natasha
 
-### <ins>Data sources<ins>
-- The Guardian Open Platform API (https://open-platform.theguardian.com/)
-- The New York Times Developers Article Search API (https://developer.nytimes.com/docs/articlesearch-product/1/overview) 
+
+### <ins>Presentations<ins>
+- [In-class presentation](presentation%20materials/psychkids%20original%20presentation.pdf)
 
 
 
