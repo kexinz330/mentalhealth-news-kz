@@ -81,8 +81,10 @@ Along with this README file, you can find the following folders and documents:
 *This README file*: Natasha
 
 
-### <ins>Presentations<ins>
+### <ins>Additional material<ins>
 - [In-class presentation](presentation%20materials/psychkids%20original%20presentation.pdf)
+- [Revised presentation](presentation%20materials/psychkids%20revised%20presentation.pdf)
+- Video
 
 
 
