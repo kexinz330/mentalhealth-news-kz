@@ -27,7 +27,7 @@ For future directions, we suggest this study could be replicated in other platfo
 - all_articles_counts: in this directory you'll be able to find two files: "total_articles_by_year_guardian.csv" and "yearly_n_all_nyt". These contain yearly counts for ALL published articles (regardless of topic) on each newspaper from 2004 to 2024 (up until mid-February)
 - guardian_articles_raw: this directory contains two csv files ("anxiety_articles_guardian.csv" and "depression_articles_guardian.csv"). These contain The Guardian's articles' raw data
 - nyt_articles_raw: this directory contains two json files ("anxiety_articles_NYT.json" and "depression_articles_NYT.json"). These contain The New York Times' articles' raw data
-- presentation materials: in this folder you can find two PDF files. One is "psychkids original presentation.pdf", which have the original slides from an in-class presentation of the project. The other one is "psychkids revised presentation.pdf" which are the revised slides after getting feedback.
+- presentation materials: in this folder you can find two PDF files. One is "psychkids original presentation.pdf", which has the original slides from an in-class presentation of the project. The other one is "psychkids revised presentation.pdf" which are the revised slides after getting feedback.
 - README.md: this file
 - psychkids.ipynb: Jupyter notebook containing code used for data collection, data cleaning and data analysis/visualization
 - requirements.txt: file listing the dependencies needed to reproduce the project
