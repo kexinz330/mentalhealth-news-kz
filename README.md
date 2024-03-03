@@ -34,7 +34,7 @@ For future directions, we suggest this study could be replicated in other platfo
 
 ### <ins>Instructions to run the code<ins>
 
-1. Users should clone the whole repository in their local machine.
+1. Users should clone the repository in their local machine.
 2. Download two additional folders and one file that are publicly available on [Google Drive](https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing). They are:
     -  cleaned_articles: this folder contain three files; "clean_guardian.csv" and "clean_nyt" are each newspaper's clean data by separate, while "combined.csv" contains such data combined.
     -  NRC-Emotion-Lexicon: this folder was originally downloaded from the [NRC Word-Emotion Association Lexicon website](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). It contains one of the sentiment analysis dictionaries that we used for the project, along with the original research papers of its development. All of its content was created by the authors Dr. Saif M. Mohammad and Dr. Peter Turney (Copyright (C) 2011 National Research Council Canada (NRC)). For further details, the folder contains its own README file and the reader can also refer to the NRC's website mentioned above.
