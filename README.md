@@ -42,7 +42,7 @@ Along with this README file, you can find the following folders and documents:
     -  NRC-Emotion-Lexicon: this folder was originally downloaded from the [NRC Word-Emotion Association Lexicon website](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). It contains one of the sentiment analysis dictionaries that we used for the project, along with the original research papers of its development. All of its content was created by the authors Dr. Saif M. Mohammad and Dr. Peter Turney (Copyright (C) 2011 National Research Council Canada (NRC)). For further details, the folder contains its own README file and the reader can also refer to the NRC's website mentioned above.
    -  sentiment_data: this file contains the final table (both newspapers' data with sentiment analysis scores)
 4. Make sure to copy these content at the same local repository in your machine (e.g. the "cleaned_articles" and the "NRC-Emotion-Lexicon" folders must be at the same level as "all_articles_counts", and the file "sentiment_data" must be at the same level as the file "requirements.txt"). Sometimes local computers will download a zip containing the folder. Be sure to unzip it.
-5. Install all needed libraries if they are not already installed (specified in [requirements.txt](requirements.txt)
+5. Install all needed libraries if they are not already installed (specified in [requirements.txt](requirements.txt))
 6. Open psychkids.ipynb in an integrated development environment (IDE) of choice and run. 
 
 ### <ins>Data sources<ins>
