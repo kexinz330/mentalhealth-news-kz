@@ -17,6 +17,11 @@ Overall, after analyzing both newspapers, we concluded that discussions surround
 
 For future directions, we suggest this study could be replicated in other platforms (such as social media), including other mental health conditions (beyond anxiety and depression) and it could also be enhanced through the exploration of other sentiment analysis techniques and dictionaries. 
 
+### <ins>Team members<ins>
+- Jayda Hart
+- Kexin Zhang
+- Natasha Carpio Castellanos
+- Yue Yin
 
 ### <ins>Navigation of GitHub repository<ins>
 Along with this README file, you can find the following folders and documents:
@@ -32,20 +37,26 @@ Along with this README file, you can find the following folders and documents:
 ### <ins>Instructions to run the code<ins>
 
 1. Users should clone the whole repository in their local machine.
-2. Download two additional folders and one file that are publicly available on Google Drive. The link to access them is: https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing
-4. Make sure to put the two folders ("cleaned_articles" and "NRC-Emotion-Lexicon") and the file "sentiment_data" at the same local repository in your machine, at the same level as the other folders (such as all_articles_counts) (Sometimes local computers will download a zip containing the folder. Be sure to unzip it.)
+2. Download two additional folders and one file that are publicly available on [Google Drive](https://drive.google.com/drive/folders/1rzZvmyKf0E0ASt6jOSZFpg4_pyP5EdFq?usp=sharing). They are:
+    -  cleaned_articles: this folder contain three files; "clean_guardian.csv" and "clean_nyt" are each newspaper's clean data by separate, while "combined.csv" contains such data combined.
+    -  NRC-Emotion-Lexicon: this folder was originally downloaded from the [NRC Word-Emotion Association Lexicon website](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). It contains one of the sentiment analysis dictionaries that we used for the project, along with the original research papers of its development. All of its content was created by the authors Dr. Saif M. Mohammad and Dr. Peter Turney (Copyright (C) 2011 National Research Council Canada (NRC)). For further details, the folder contains its own README file and the reader can also refer to the NRC's website mentioned above.
+   -  sentiment_data: this file contains the final table (both newspapers' data with sentiment analysis scores)
+4. Make sure to copy these content at the same local repository in your machine (e.g. the "cleaned_articles" and the "NRC-Emotion-Lexicon" folders must be at the same level as "all_articles_counts", and the file "sentiment_data" must be at the same level as the file "requirements.txt"). Sometimes local computers will download a zip containing the folder. Be sure to unzip it.
 5. Install all needed libraries if they are not already installed (specified in requirements.txt)
 6. Open psychkids.ipynb in an integrated development environment (IDE) of choice and run. 
-
 
 ### <ins>Data sources<ins>
 - The Guardian Open Platform API (https://open-platform.theguardian.com/)
 - The New York Times Developers Article Search API (https://developer.nytimes.com/docs/articlesearch-product/1/overview)
 
+### <ins>Sentiment analysis resources<ins>
+- Finn Årup Nielsen. A new ANEW: Evaluation of a word list for sentiment analysis in microblogs. Proceedings of the ESWC2011 Workshop on 'Making Sense of Microposts': Big things come in small packages 718 in CEUR Workshop Proceedings 93-98. 2011 May. http://arxiv.org/abs/1103.2903.
+- Mohammad, S. M., & Turney, P. D. (2013). Crowdsourcing a word–emotion association lexicon. Computational intelligence, 29(3), 436-465.
+- Mohammad, S., & Turney, P. (2010, June). Emotions evoked by common words and phrases: Using mechanical turk to create an emotion lexicon. In Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text (pp. 26-34).
 
-### <ins>Team members responsibilities<ins>
+### <ins>Responsibilities<ins>
 
-*Overall project management (correct merge of code, files organization, upload of material, overlook of tasks, etc.)* : Natasha
+*Github organization* : Natasha
 
 *Data Collection*
 - The New York Times articles: Natasha
