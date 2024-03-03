@@ -2,7 +2,7 @@
 
 Mental health has always been a sensitive topic, and people have been hesitant to discuss it due to the associated stigma. However, in recent years, it has become more normalized to talk about it, even in mainstream media such as newspapers. The outbreak of COVID-19 further highlighted the importance of discussing mental health, as people were isolated and had more time to think about different topics, including their mental health. Quarantine also saw a rise in adverse mental health conditions in the United States, which may have caused more people to seek information and resources about mental health.
 
-Our project aimed to analyze the presence of mental health discussions online, specifically focusing on anxiety and depression in newspaper articles. By examining various attributes, such as the tone of the titles, we were able to identify attitudes towards mental health conditions, providing insights into changing societal attitudes and the impact of policies such as lockdowns. This analysis contributes to broader discussions on mental health advocacy, media attitudes, and public policy.
+Our project aimed to analyze the presence of mental health discussions online, specifically focusing on anxiety and depression in newspaper articles. By examining various attributes, such as the tone of the titles, we were able to identify attitudes towards mental health conditions, providing insights into changing societal attitudes. This analysis contributes to broader discussions on mental health advocacy, media attitudes, and public policy.
 
 To begin, our two research questions were:
 
