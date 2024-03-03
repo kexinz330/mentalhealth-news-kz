@@ -45,7 +45,7 @@ Along with this README file, you can find the following folders and documents:
 
 ### <ins>Team members responsibilities<ins>
 
-*Overall project management (correct merge of data, files organization, upload of material, overlook of tasks, etc.)* : Natasha
+*Overall project management (correct merge of code, files organization, upload of material, overlook of tasks, etc.)* : Natasha
 
 *Data Collection*
 - The New York Times articles: Natasha
