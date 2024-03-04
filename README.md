@@ -82,7 +82,7 @@ For future directions, we suggest this study could be replicated in other platfo
 ### <ins>Additional material<ins>
 - [In-class presentation](presentation%20materials/psychkids%20original%20presentation.pdf)
 - [Revised presentation](presentation%20materials/psychkids%20revised%20presentation.pdf)
-- Video
+- [Video](https://drive.google.com/file/d/1fihXNSp9xMeHK7fhEYEUs4TGOErONNvV/view)
 
 
 
